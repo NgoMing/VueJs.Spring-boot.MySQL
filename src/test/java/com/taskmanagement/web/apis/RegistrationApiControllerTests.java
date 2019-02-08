@@ -4,7 +4,6 @@ import static org.mockito.Mockito.doNothing;
 import static org.mockito.Mockito.doThrow;
 
 import com.taskmanagement.domain.application.UserService;
-import com.taskmanagement.domain.application.commands.RegistrationCommand;
 import com.taskmanagement.domain.model.user.EmailAddressExistedException;
 import com.taskmanagement.domain.model.user.UsernameExistedException;
 import com.taskmanagement.utils.JsonUtils;
@@ -14,7 +13,6 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
-import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
