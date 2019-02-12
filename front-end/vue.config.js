@@ -8,6 +8,7 @@ module.exports = {
     }
   },
   configureWebpack: {
+    devtool: 'source-map',
     entry: {
       app: './src/main.js',
       style: [
